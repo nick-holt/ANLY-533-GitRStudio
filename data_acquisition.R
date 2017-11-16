@@ -49,3 +49,6 @@ write_csv(presidents, "president_data.csv")
 washington <- presidents[1,]
 
 write_csv(washington, "wash.csv")
+
+
+# one more thing...
