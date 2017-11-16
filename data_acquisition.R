@@ -41,3 +41,11 @@ presidents <- presidents[-1,] %>%
         arrange(pres_number)
 
 write_csv(presidents, "president_data.csv")
+
+
+# This is a new piece of code for class
+1 + 1
+
+washington <- presidents[1,]
+
+write_csv(washington, "wash.csv")
